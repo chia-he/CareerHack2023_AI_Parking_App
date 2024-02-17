@@ -1,0 +1,16 @@
+fastapi
+uvicorn
+sqlalchemy
+pymysql
+requests
+jinja2
+google-api-core==2.11.0
+google-auth==2.15.0
+google-cloud-core==2.3.2
+google-cloud-storage==2.7.0
+google-cloud-vision==3.2.0
+cloud-sql-python-connector==1.0.0
+secure-smtplib
+python-multipart
+python-jose
+passlib

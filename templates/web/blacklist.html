@@ -1,0 +1,47 @@
+<!-- Unfinished -->
+
+<!-- Content Row -->
+<div class="row">
+    <!-- Content Column -->
+    <div class="col">
+        <!-- DataTales Example -->
+        <div class="card shadow mb-4">
+            <div class="card-header py-3">
+                <h6 class="m-0 font-weight-bold text-primary">黑名單</h6>
+            </div>
+            <div class="card-body">
+                <div class="table-responsive">
+                    <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                        <thead>
+                            <tr>
+                                <th>廠區名稱</th>
+                                <th>停車格編號</th>
+                                <th>車牌號碼</th>
+                                <th>PL_OCCUPY_NUMBER</th>
+                                <th>EMPTY_SPACE_NUMBER</th>
+                                <th>Action</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% if blacklist %}
+                            {% for bl in blacklist %}
+                            <!-- <tr bgcolor="#f5c9c9"> -->
+                            <tr>
+                                <td>{{bl.PL_ID}}</td>
+                                <td>{{bl.PL_NAME}}</td>
+                                <td>{{bl.PL_SPACE_NUMBER}}</td>
+                                <td>{{bl.PL_OCCUPY_NUMBER}}</td>
+                                <td>{{bl.EMPTY_SPACE_NUMBER}}</td>
+                                <td>
+                                    <a href="https://google.com" class="btn btn-danger">列入黑名單</a>
+                                </td>
+                            </tr>
+                            {% endfor %}
+                            {% endif %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
