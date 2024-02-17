@@ -37,5 +37,5 @@
 
     1.  資料庫方面，我們希望不要產生過多的冗餘表格，若查詢語句可以獲取資料，就不為其額外建表。
 
-    2.  車牌影像辨識方面，我們以 YOLOv7 訓練了自有的辨識模型，以求效率與準確度的提升。  
-        [車牌辨識系統](https://github.com/JimYang1999/CareerHack_AI_Parking_OCR)
+    2.  [車牌辨識系統](https://github.com/JimYang1999/CareerHack_AI_Parking_OCR)方面，我們以 YOLOv7 訓練了自有的辨識模型，以求效率與準確度的提升。  
+        
